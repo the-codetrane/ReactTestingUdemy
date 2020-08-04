@@ -1,8 +1,7 @@
 import React from "react";
-import Congrats from "./Congrats";
 import { render } from "@testing-library/react";
 import { checkProps } from "../test/testUtils";
-import checkPropTypes from "check-prop-types";
+import Congrats from "./Congrats";
 
 const defaultProps = {
   success: false,
