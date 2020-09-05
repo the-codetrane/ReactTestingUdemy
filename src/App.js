@@ -4,7 +4,7 @@ import GuessedWords from "./GuessedWords";
 import "./App.css";
 
 const App = () => (
-  <div className="App">
+  <div className="App container">
     <h1>Dat Jotto Jawn</h1>
     <Congrats success={true} />
     <GuessedWords

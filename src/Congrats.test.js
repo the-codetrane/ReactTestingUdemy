@@ -26,7 +26,7 @@ test("renders no text when 'success' prop is false", () => {
 test("renders congrats message with 'success' prop is true", () => {
   const { getByTestId } = setup({ success: true });
   const component = getByTestId("congrats-message");
-  expect(component).toHaveTextContent("");
+  expect(component).toHaveTextContent("My man! You guessed the secret word!");
 });
 
 test("does not throw warning with expected props", () => {
