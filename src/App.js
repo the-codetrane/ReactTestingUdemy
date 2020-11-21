@@ -6,7 +6,7 @@ import "./App.css";
 const App = () => (
   <div className="App container">
     <h1>Dat Jotto Jawn</h1>
-    <Congrats success={true} />
+    <Congrats success={false} />
     <GuessedWords
       guessedWords={[{ guessedWord: "dongs", letterMatchCount: 3 }]}
     />
